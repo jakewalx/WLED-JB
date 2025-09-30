@@ -19,3 +19,5 @@
 /* Disable WiFi sleep for better connection stability */
 #define WLED_NO_WIFI_SLEEP true
 
+/* Force mDNS name for service discovery */
+#define MDNS_NAME "wled"
