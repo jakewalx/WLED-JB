@@ -8,7 +8,7 @@
 #define GRADIENT_PALETTE_COUNT 62 //WLEDMM netmindz ar palette +3, ewowi Random Smooth palette +1
 
 //Defaults
-#define DEFAULT_CLIENT_SSID "Your_Network"
+#define DEFAULT_CLIENT_SSID "area51"
 #define DEFAULT_AP_SSID     "WLED-AP"
 #define DEFAULT_AP_PASS     "wled1234"
 #define DEFAULT_OTA_PASS    "wledota"
