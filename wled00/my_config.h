@@ -11,3 +11,4 @@
 /* WiFi settings as defaults - hardcoded for factory deployment */
 #define CLIENT_SSID "area51"
 #define CLIENT_PASS "alienlights"
+
