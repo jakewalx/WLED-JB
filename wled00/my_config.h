@@ -12,3 +12,10 @@
 #define CLIENT_SSID "area51"
 #define CLIENT_PASS "alienlights"
 
+/* WiFi connection settings */
+#define WLED_WIFI_RETRIES 10
+#define WLED_WIFI_TIMEOUT 20
+
+/* Disable WiFi sleep for better connection stability */
+#define WLED_NO_WIFI_SLEEP true
+
