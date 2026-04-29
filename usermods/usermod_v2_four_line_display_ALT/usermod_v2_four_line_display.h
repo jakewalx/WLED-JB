@@ -9,7 +9,7 @@
 #endif
 
 #ifndef FLD_PIN_CS
-  #define FLD_PIN_CS 15
+  #define FLD_PIN_CS 21
 #endif
 
 #ifdef ARDUINO_ARCH_ESP32
@@ -17,7 +17,7 @@
     #define FLD_PIN_DC 19
   #endif
   #ifndef FLD_PIN_RESET
-    #define FLD_PIN_RESET 26
+    #define FLD_PIN_RESET 27
   #endif
 #else
   #ifndef FLD_PIN_DC
