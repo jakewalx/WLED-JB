@@ -30,7 +30,7 @@ build_flags = ${common.build_flags_esp8266}
 ;  -D WLED_DISABLE_INFRARED
 ;  -D WLED_DISABLE_WEBSOCKETS
 ; PIN defines - uncomment and change, if needed:
-;   -D LEDPIN=2
+;   -D LEDPIN=33
 ;   -D BTNPIN=0
 ;   -D TOUCHPIN=T0
 ;   -D IRPIN=4
@@ -41,8 +41,8 @@ build_flags = ${common.build_flags_esp8266}
 ;   -D USE_WS2801
 ;   -D USE_LPD8806
 ; PIN defines for 2 wire LEDs
-   -D CLKPIN=0
-   -D DATAPIN=2
+;   -D CLKPIN=0
+;   -D DATAPIN=2
 ; to drive analog LED strips (aka 5050) hardware configuration is no longer necessary
 ; configure the settings in the UI as follows (hard):
 ;   for the Magic Home LED Controller use PWM pins 5,12,13,15
@@ -53,7 +53,7 @@ build_flags = ${common.build_flags_esp8266}
 ;   -D SERVERNAME="\"WLED\""
 ;   
 ; set the number of LEDs
-;   -D DEFAULT_LED_COUNT=30
+;   -D DEFAULT_LED_COUNT=130
 ;   
 ; set milliampere limit when using ESP pin to power leds
 ;   -D ABL_MILLIAMPS_DEFAULT=850
