@@ -7,6 +7,9 @@
 #endif
 // WLED-MM license warning suppressed so build does not fail on -Werror=cpp
 // #warning WLED-MM is licensed under the EUPL-1.2. By installing WLED MM you implicitly accept the terms!
+
+#if defined(ARDUINO_ARCH_ESP32) && defined(WLED_DISABLE_BROWNOUT_DET)
+#include "soc/soc.h"
 #include "soc/rtc_cntl_reg.h"
 #endif
 
