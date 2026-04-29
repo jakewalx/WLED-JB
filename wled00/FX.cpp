@@ -9823,8 +9823,8 @@ uint16_t mode_particleimpact(void) {
     }
   }
 
-  for (uint32_t i = 0; i < PartSys->usedParticles; i++) {
-    if (PartSys->particles[i].ttl > 5) PartSys->particles[i].ttl -= 5; //ttl is linked to brightness, this allows to use higher brightness but still a short spark lifespan
+  for (uint32_t j = 0; j < PartSys->usedParticles; j++) {
+    if (PartSys->particles[j].ttl > 5) PartSys->particles[j].ttl -= 5; //ttl is linked to brightness, this allows to use higher brightness but still a short spark lifespan
   }
 
   PartSys->update(); // update and render
